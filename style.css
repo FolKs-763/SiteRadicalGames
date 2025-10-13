@@ -1,0 +1,276 @@
+body {
+  background-color: #0f0f0f;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+  color: #ff4500;
+  font-weight: bold;
+}
+
+.lobby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 40px;
+  height: 80vh; 
+}
+
+.RogueLike {
+  background-color: #181818;
+  border: 2px solid #ff4500;
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.RogueLike:hover {
+  transform: scale(1.1);
+  background-color: #ff4500;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #181818;
+  color: #bbb;
+}
+
+.RPG {
+  background-color: #181818;
+  border: 2px solid #ff3030;
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.RPG:hover {
+  transform: scale(1.1);
+  background-color: #ff3030;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #181818;
+  color: #bbb;
+}
+
+.MundoAberto {
+  background-color: #181818;
+  border: 2px solid #ffa227;
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.MundoAberto:hover {
+  transform: scale(1.1);
+  background-color: #ffa227;
+  color: black;
+}
+
+.BattleRoyale {
+  background-color: #181818;
+  border: 2px solid #3e28ff;
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.BattleRoyale:hover {
+  transform: scale(1.1);
+  background-color: #3e28ff;
+  color: black;
+}
+
+header {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+body {
+    padding-top: 80px;
+}
+
+.topico-lobby {
+    text-align: center;
+    padding-top: 100px;
+    min-height: 100vh;
+    background: radial-gradient(circle at center, #121212, #000);
+    color: white;
+}
+
+.topico-titulo {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.jogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 25px;
+    margin-top: 60px;
+}
+
+.jogo {
+    background: rgba(255, 255, 255, 0.05);
+    width: 220px;
+    height: 200px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 15px 10px;
+    transition: all 0.3s ease;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.jogo h3 {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.jogo img {
+    width: 180px;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: contain;
+
+}
+
+.jogo span {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.jogo:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #ff0066;
+    transform: scale(1.05);
+}
+
+.jogo:hover img {
+    transform: scale(1.1);
+}
+
+.Voltar {
+    margin-top: 50px;
+}
+
+.Voltar a {
+    color: #ff0066;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 2px solid #ff0066;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.Voltar a:hover {
+    background: #ff0066;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 1000;
+}
+
+main {
+    background-color: #000000;
+    padding-top: 100px;
+}
+
+header {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  background: transparent;
+  padding: 0;
+  z-index: 1000;
+  width: auto;
+  box-shadow: none;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000 !important;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.logo img {
+    display: block;
+    width: 180px;
+    height: auto;
+}
+
