@@ -81,7 +81,7 @@ footer {
   color: #bbb;
 }
 
-.MundoAberto {
+.SoulsLike {
   background-color: #181818;
   border: 2px solid #ffa227;
   border-radius: 12px;
@@ -97,7 +97,7 @@ footer {
   transition: transform 0.3s, background-color 0.3s;
 }
 
-.MundoAberto:hover {
+.SoulsLike:hover {
   transform: scale(1.1);
   background-color: #ffa227;
   color: black;
